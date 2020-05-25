@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.univali.edu.memoryGame.screen.EndGameController">
+   <children>
+      <ImageView fx:id="endgameScreen" fitHeight="700.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="result1" fitHeight="709.0" fitWidth="900.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="result2" fitHeight="700.0" fitWidth="909.0" layoutX="-7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="replay" fitHeight="87.0" fitWidth="268.0" layoutX="316.0" layoutY="613.0" onMouseClicked="#replayClicked" onMouseEntered="#replayEntered" onMouseExited="#replayExited" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="exit" fitHeight="83.0" fitWidth="131.0" layoutX="769.0" layoutY="617.0" onMouseClicked="#exitClicked" onMouseEntered="#exitEntered" onMouseExited="#exitExited" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="minutes" fill="WHITE" layoutX="243.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" wrappingWidth="58.13671875">
+         <font>
+            <Font name="MS Outlook" size="48.0" />
+         </font>
+      </Text>
+      <Text fx:id="seconds" fill="WHITE" layoutX="310.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00" wrappingWidth="58.13671875">
+         <font>
+            <Font name="MS Outlook" size="48.0" />
+         </font>
+      </Text>
+      <Text fx:id="points" fill="WHITE" layoutX="316.0" layoutY="94.0" smooth="false" stroke="WHITE" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="00" textAlignment="CENTER" wrappingWidth="58.13671875">
+         <font>
+            <Font name="MS Outlook" size="52.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

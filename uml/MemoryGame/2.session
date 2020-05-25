@@ -1,0 +1,16 @@
+window_sizes 1366 705 320 1041 659 0
+
+diagrams
+  usecasediagram_ref 128002 // memoryGameUseCaseDiagram
+    1041 555 100 A4 0 0
+  classdiagram_ref 128130 // memoryGameClassDiagram
+    1041 555 100 A0 16 0
+  active  sequencediagram_ref 134658 // memoryGameSequenceDiagram
+    1041 659 80 A0 0 0
+end
+show_stereotypes
+selected class_ref 142210 // EndGameController
+open
+  classview_ref 128002 // MemoryGameClassView
+end
+end

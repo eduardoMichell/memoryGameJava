@@ -1,0 +1,32 @@
+format 222
+
+classcanvas 128002 class_ref 128002 // Player
+  simpleclassdiagramsettings end
+  xyz 67 89 2000
+end
+usecasecanvas 128130 usecase_ref 128002 // Choose Card
+  xyzwh 197 175 3005 64 32 label_xy 196 207
+end
+usecasecanvas 128386 usecase_ref 128130 // NewGame
+  xyzwh 204 113 3005 64 32 label_xy 210 145
+end
+usecasecanvas 128642 usecase_ref 134658 // Choose Difficulty
+  xyzwh 169 231 3005 64 32 label_xy 160 263
+end
+usecasecanvas 128898 usecase_ref 134786 // Exit
+  xyzwh 213 57 3005 64 32 label_xy 236 89
+end
+usecasecanvas 129154 usecase_ref 141314 // Replay
+  xyzwh 88 268 3010 64 32 label_xy 103 300
+end
+line 128258 ----
+  from ref 128002 z 3006 to ref 128130
+line 128514 ----
+  from ref 128002 z 3006 to ref 128386
+line 128770 ----
+  from ref 128002 z 3006 to ref 128642
+line 129026 ----
+  from ref 128002 z 3006 to ref 128898
+line 129282 ----
+  from ref 128002 z 3011 to ref 129154
+end
